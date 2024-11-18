@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css">
+    <title>Sobre - Nebulosa Studio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="sobre.html">Sobre</a>
+            <button onclick="toggleDarkMode()">Modo Escuro</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Sobre o Nebulosa Studio</h1>
+        <p>
+            O Nebulosa Studio é para você, amante do mundo cinematográfico, que quer saber tudo sobre isso. 
+            Desde ver trailers e dar opiniões, até aprender receitas de um filme ou série que você viu!
+        </p>
+        <div class="gif-container">
+            <iframe src="https://giphy.com/embed/i7Mtc0aWPTZyo" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+           <a href="https://giphy.com/gifs/thumbs-up-i7Mtc0aWPTZyo"></a>
+        </div>
+    </main>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>

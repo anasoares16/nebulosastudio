@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filmes.css">
+    <title>Filmes - Nebulosa Studio</title>
+    <link rel="icon" href="Nebu_logo.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="sobre.html">Sobre</a>
+            <button onclick="toggleDarkMode()">Modo Escuro</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Sinopses dos Filmes</h1>
+        <div class="filmes">
+            <div class="filme">
+                <h3>Venom 3</h3>
+                <p>Sinopse: A luta de Eddie Brock continua enquanto ele enfrenta um novo inimigo.</p>
+                <div class="rating" data-movie="venom">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="venom-rating">0</span> estrelas</p>
+            </div>
+            <div class="filme">
+                <h3>Robô Selvagem</h3>
+                <p>Sinopse: A aventura de um robô que busca seu lugar no mundo.</p>
+                <div class="rating" data-movie="robo">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="robo-rating">0</span> estrelas</p>
+            </div>
+            <div class="filme">
+                <h3>Terrifier 3</h3>
+                <p>Sinopse: O aterrorizante retorno de Art, o palhaço, e seus planos macabros.</p>
+                <div class="rating" data-movie="terrifier">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="terrifier-rating">0</span> estrelas</p>
+            </div>
+            <div class="filme">
+                <h3>MOANA 2</h3>
+                <p>Sinopse:Em "Moana 2", Moana e Maui se reencontram após três anos para uma nova e incrível jornada com um grupo improvável de marujos.</p>
+                <div class="rating" data-movie="terrifier">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="moana-rating">0</span> estrelas</p>
+            </div>
+
+            <div class="filme">
+                <h3>THUNDERBOLTS</h3>
+                <p>Sinopse:Os Thunderbolts são uma equipe de anti-heróis da Marvel. A equipe consiste principalmente de supervilões retificados.Confira a classificação indicativa no Portal Online da Cultura Digital.</p>
+                <div class="rating" data-movie="Thunderbolts">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="thunderbolts-rating">0</span> estrelas</p>
+            </div>
+            <div class="filme">
+                <h3>CAPITÃO AMÉRICA</h3>
+                <p>Sinopse: Um herói clássico retorna em uma nova jornada para proteger o mundo.</p>
+                <div class="rating" data-movie="capitao-america">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="capitao-america-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>GLADIADOR 2</h3>
+                <p>Sinopse: A continuação épica da história de coragem e honra.</p>
+                <div class="rating" data-movie="gladiador">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="gladiador-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>NÃO SOLTE!</h3>
+                <p>Sinopse: Um thriller emocionante onde cada escolha é uma questão de vida ou morte.</p>
+                <div class="rating" data-movie="nao-solte">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="nao-solte-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>TODO O TEMPO QUE TEMOS</h3>
+                <p>Sinopse: Uma história comovente sobre tempo e escolhas.</p>
+                <div class="rating" data-movie="todo-tempo">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="todo-tempo-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>AINDA ESTOU AQUI</h3>
+                <p>Sinopse: Uma jornada de autodescoberta e força interior.</p>
+                <div class="rating" data-movie="ainda-estou-aqui">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="ainda-estou-aqui-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>OPERAÇÃO NATAL</h3>
+                <p>Sinopse: Uma missão mágica para salvar o Natal de todos.</p>
+                <div class="rating" data-movie="operacao-natal">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="operacao-natal-rating">0</span> estrelas</p>
+            </div>
+            
+            <div class="filme">
+                <h3>WICKED</h3>
+                <p>Sinopse: A fascinante história não contada de bruxas lendárias.</p>
+                <div class="rating" data-movie="wicked">
+                    <span class="star" data-value="1">★</span>
+                    <span class="star" data-value="2">★</span>
+                    <span class="star" data-value="3">★</span>
+                    <span class="star" data-value="4">★</span>
+                    <span class="star" data-value="5">★</span>
+                </div>
+                <p class="rating-display">Classificação: <span id="wicked-rating">0</span> estrelas</p>
+            </div>
+            
+
+
+        </div>
+    </main>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+
+        // Função para gerenciar a classificação por estrelas
+        const stars = document.querySelectorAll('.star');
+        stars.forEach(star => {
+            star.addEventListener('click', function() {
+                const rating = this.getAttribute('data-value');
+                const movie = this.parentElement.getAttribute('data-movie');
+                const ratingDisplay = document.getElementById(`${movie}-rating`);
+
+                // Atualiza a exibição da classificação
+                ratingDisplay.textContent = rating;
+
+                // Altera a cor das estrelas
+                this.parentElement.querySelectorAll('.star').forEach(s => {
+                    s.style.color = s.getAttribute('data-value') <= rating ? '#ff66b3' : '#ffffff';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
